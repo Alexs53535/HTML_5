@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('./font/Gilroy-Bold.ttf');
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('./font/Gilroy-Medium.ttf');
+}
+@font-face {
+    font-family: 'gilroy-semibold';
+    src: url('./font/gilroy-semibold.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+h1, p, a, button{
+    font-family: 'Gilroy-Bold';
+}
+
+.container {
+    max-width: 1274px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 39 0;
+    margin-bottom: 160px;
+}
+
+.navigation{
+}
+
+.navigation a {
+    font-size: 16px;
+}
+
+
+.main{
+    margin-bottom: 197px;
+}
+
+.mainContent{
+}
+
+.mainContent__leftSide{
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.mainContent__leftSide p{
+    font-size: 18px;
+    line-height: 160px;
+    opacity: 0,7;
+}
+
+.mainContent__leftSide-btnlist{}
+
+.mainContent__leftSide-btnlist button{  
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer{
+    margin-bottom: 100px;
+}
+
+.logos{}
+
+
