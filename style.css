@@ -26,13 +26,30 @@ img{
     max-width: 100%;
 }
 
-h1, p, a, button{
+h1{
     font-family: 'Gilroy-Bold';
+}
+
+p, a, button{
+    font-family: 'Gilroy-Medium';
 }
 
 .container {
     max-width: 1274px;
     margin: 0 auto;
+}
+
+.logos1{
+    display: flex;
+    width: 98px;
+    justify-content: space-between;   
+}
+
+.Teg{
+    width: 998px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .header {
@@ -41,6 +58,9 @@ h1, p, a, button{
 }
 
 .navigation{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .navigation a {
@@ -50,9 +70,13 @@ h1, p, a, button{
 
 .main{
     margin-bottom: 197px;
+    display: flex;
+    justify-content: center;
 }
 
 .mainContent{
+    display: flex;
+    justify-content: center;
 }
 
 .mainContent__leftSide{
@@ -60,17 +84,24 @@ h1, p, a, button{
     line-height: 160%;
     text-transform: uppercase;
     margin-bottom: 10px;
+    
 }
 
 .mainContent__leftSide p{
     font-size: 18px;
     line-height: 160px;
     opacity: 0,7;
+    max-width: 552px;
+    
 }
 
-.mainContent__leftSide-btnlist{}
+.mainContent__leftSide-btnlist{
+    display: flex;
+    align-items: center;
+}
 
 .mainContent__leftSide-btnlist button{  
+    font-family: 'Gilroy-Bold';
     padding: 15px;
     border-radius: 5px;
     font-size: 20px;
@@ -82,6 +113,9 @@ h1, p, a, button{
     margin-bottom: 100px;
 }
 
-.logos{}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
 
 
