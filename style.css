@@ -26,8 +26,11 @@ img{
     max-width: 100%;
 }
 
-h1{
+.mainContent__leftSide h1{
     font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: normal;
+    margin-bottom: 17px;
 }
 
 p, a, button{
@@ -46,52 +49,51 @@ p, a, button{
 }
 
 .Teg{
-    width: 998px;
+    width: 553px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
+}
+.colorTeg{
+    color: rgb(242, 102, 2);
 }
 
 .header {
     padding: 39 0;
-    margin-bottom: 160px;
+    margin-bottom: 89px;
 }
 
 .navigation{
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navigation a {
     font-size: 16px;
+    font-family: 'Gilroy-Medium';
 }
 
 
-.main{
-    margin-bottom: 197px;
-    display: flex;
-    justify-content: center;
-}
 
 .mainContent{
+    margin-bottom: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .mainContent__leftSide{
-    font-size: 18px;
-    line-height: 160%;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    
+    font-family: 'Gilroy-Bold';  
 }
 
 .mainContent__leftSide p{
-    font-size: 18px;
-    line-height: 160px;
+    color: #888;
+    font-size: 20px;
+    line-height: normal;
     opacity: 0,7;
-    max-width: 552px;
+    /* max-width: 552px; */
+    font-family: 'Gilroy-Medium';
+    margin-bottom: 37px;
     
 }
 
@@ -102,20 +104,93 @@ p, a, button{
 
 .mainContent__leftSide-btnlist button{  
     font-family: 'Gilroy-Bold';
-    padding: 15px;
+    padding: 15px 15px;
     border-radius: 5px;
     font-size: 20px;
-    border: none;
     cursor: pointer;
 }
 
-.footer{
+/* .footer{
     margin-bottom: 100px;
-}
+} */
 
 .logos{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 
+.cardlist{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 30px;
+    align-items: start;
+    text-align: left;
+}
+
+.card h1{
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.card p{
+    font-family: 'Gilroy-Medium';
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+.card h2{
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    line-height: 16.5px;
+}
+
+.cardlist2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.cardd{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 10px;
+    align-items: start;
+    cursor: pointer;
+}
+
+.cardlist2 h1{
+    display: grid;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.cardlist2 p{
+    font-family: 'Gilroy-Medium';
+    font-size: 15px;
+    line-height: 22.5px;
+    align-items: center;
+}
+
+.cardd button{
+    font-family: 'Gilroy-Bold';
+    font-size: 13px;
+    line-height: 19.5px;
+    text-align: center;
+    align-items: center;
+}
